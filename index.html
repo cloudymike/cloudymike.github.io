@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hopitty by cloudymike</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Hopitty</h1>
+        <p>Python controller</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/cloudymike/hopitty" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/cloudymike/hopitty/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/cloudymike/hopitty/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h3>Welcome to Hopitty, the fully automatic personal brewery</h3>
+<p>
+The goal of this project is to create an automated brewing setup for all grain brewing. The software is mainly python code, that drives the brewing hardware, through USB interfaces. The user interfaces is web bases, so you can check on your brew from any computer, smart phone etc. The recipes can be read directly from the BeerSmith software or entered as json files.
+</p>
+<p>To dive into the code, check out the <a href="https://hopitty.readthedocs.org">API documentation</a>. Or go to the <a href="https://github.com/cloudymike/hopitty">gihub pages</a>  for more details on the code. Also take a look at the <a https://github.com/cloudymike/hopitty/blob/master/README.md>Readme file</a> for more details on how to build and run the software.
+</p>
+
+<h4>About the Hardware</h4>
+<p> The brewing equipment consists of an electric hot water tun, cooler mash tun and and a electric boiler. All sensors and controllers are USB based, this allows flexibility to add and replace equipment. The hardware used while writing this software is described in the <a href="https://github.com/cloudymike/hopitty/wiki/Hardware">hardware</a> wiki pages. All controllers and sensors are USB devices. This enables more flexibility, to use just the devices required. This project started, as example with one USB thermometer and and X10 switch to heat the strike water for the mash, and if that is all you have, the software will still work for this.
+</p>
+<p>
+The computer used while developing the software is an Ubuntu (12.04) PC. As the code is in Python it is very portable and and early version was demonstrated working on the RaspberryPI. The USB devices uses code provided by vendors and may be in other languages. All the source code is however included or will be downloaded by the setup script.
+
+
+<h4>But, does it brew?</h4>
+That is the main objective, right? To get an idea of what you can brew with this setup, check out <a href="http://beersmithrecipes.com/listrecipes/5399/hopsfull"> my recipes on the BeerSmith site</a>. An important feature of the software is that it reads the recipe files from BeerSmith software directly. This allows you to focus on creating a great recipe, and then let the software make it for you.
+</p>
+
+<!--
+<h4>Take if for a spin!</h4>
+Use <a href="http://demo.hopitty.com"> this link </a> to try out the software.
+Don't worry, no real beer
+will be harmed, it is just a test setup, that will give you an idea how the software
+behaves.
+</p>
+-->
+
+<h4>I'd like try it out and maybe add some code</h4>
+Go ahead, download the code, use it, modify it. I look forward to work with you
+on improving the code, exchanging ideas on hardware setup and improving the beer we brew.
+
+If you would like to ask me about anything about hopitty, feel free to drop me an email at mikael@cloudyforecast.com
+
+<!-- begin htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" language="javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(""+window.location || hcb_user.PAGE), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+escape(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24s2H7D3Xjv53oWYExfoU22."+"&opts=16862&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end htmlcommentbox.com -->
+
+
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/cloudymike">cloudymike</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
